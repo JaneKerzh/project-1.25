@@ -10,16 +10,13 @@ body {
   width: 100%;
 }
 
-#bg {
-  margin-left: 800px;
-  margin-top: 0px;
-  padding: 0px;
-}
 
-#bg1 {
-  margin-left: 800px;
+.images {
+  margin-left: 50vw;
   margin-top: 50px;
   padding: 0px;
+  max-width: 100vw;
+  overflow: hidden;
 }
 
 #invest {
@@ -88,17 +85,20 @@ a:active {
     top: 80px;
     height: 100vh;
     position: fixed;
-    width: 800px;
+    max-width: 800px;
+    width: 100vw;
     overflow: hidden;
 }
 
 #fixed_wrapper div{
-  margin-left: 90px;
+  margin-left: 5vw;
   color: black;
   height: 90vh;
   margin-bottom: 40vh;
   display: inline-block;
   overflow: auto;
+  overflow-wrap: anywhere;
+  hyphens: auto;
 }
 
 #music {
@@ -113,7 +113,6 @@ a:active {
 
 #footer {
   margin-top: 3000px;
-  background-color: white;
   margin-left: 700px;
   padding-left: 0px;
   font-size: 30px;
@@ -133,11 +132,12 @@ a:active {
 }
 
 .topnav {
-  margin-left: 90px;
+  margin-left: 5vw;
   overflow: hidden;
-  top: 30px;
-  position: sticky;
+  top: 15px;
+  position: fixed;
   width: 100vw;
+  z-index: 10;
 }
 
 
@@ -146,4 +146,17 @@ a:active {
   text-align: center;
   padding-right: 30px;
   font-size: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+  .topnav a {
+    display: list-item;
+  }
+
+  #fixed_wrapper {
+      top: 220px;
+  }
+  #fixed_wrapper div{
+    height: calc(100vh - 220px);
+  }
 }
