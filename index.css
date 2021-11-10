@@ -97,6 +97,8 @@ a:active {
   color: black;
   height: 100vh;
   display: inline-block;
+  min-height: min-content;
+  overflow: auto;
 }
 
 #music {
