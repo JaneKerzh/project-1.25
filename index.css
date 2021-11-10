@@ -19,6 +19,10 @@ body {
   overflow: hidden;
 }
 
+.bg1 {
+  width: 1000px;
+  height: 1200px;
+}
 #invest {
   color: blue;
 
@@ -96,14 +100,10 @@ a:active {
   height: 90vh;
   margin-bottom: 40vh;
   display: inline-block;
-<<<<<<< HEAD
   min-height: min-content;
-  overflow: auto;
-=======
   overflow: auto;
   overflow-wrap: anywhere;
   hyphens: auto;
->>>>>>> 505927ac766b12a636a1ed5a858cb7b591edd002
 }
 
 #music {
