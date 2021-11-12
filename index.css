@@ -67,6 +67,7 @@ a:active {
 .topnav {
   margin-left: 5vw;
   margin-top: 5vh;
+  margin-bottom: 5vh;
   top: 0;
   overflow: hidden;
   position: fixed;
@@ -107,7 +108,7 @@ a:active {
 
 
 #fixed_wrapper {
-    top: 80px;
+    top: 10vh;
     height: 100vh;
     position: fixed;
     max-width: 90vw;
