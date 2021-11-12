@@ -110,8 +110,8 @@ a:active {
     top: 80px;
     height: 100vh;
     position: fixed;
-    max-width: 40vw;
-    width: 100vw;
+    max-width: 90vw;
+    width: 90vw;
     overflow: hidden;
     margin-left: 5vw;
 }
