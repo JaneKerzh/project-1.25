@@ -70,16 +70,21 @@ a:active {
   top: 0;
   overflow: hidden;
   position: fixed;
-  width: 100vw;
+  width: 95vw;
   z-index: 10;
 }
 
 
 .topnav a {
   color: black;
+  display: inline-block;
   text-align: center;
   padding-right: 30px;
   font-size: 30px;
+}
+
+#invest {
+  float: right;
 }
 
 .images {
