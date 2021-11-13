@@ -6,17 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="index.css">
   <link rel="shortcut icon" href="favicon.ico">
+  <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
   <div class="topnav">
-    <a href="#top">top</a>
-    <a href="#music">what is this about</a>
-    <a href="#podium">what is undercurrent</a>
-    <a href="#footer" id="invest"><span style="color:blue">invest</span></a>
+    <a href="#top" class="topnav_button" onclick="setImagesZindex()">top</a>
+    <a href="#music" class="topnav_button" onclick="setImagesZindex()">what is this about</a>
+    <a href="#podium" class="topnav_button" onclick="setImagesZindex()">what is undercurrent</a>
+    <a href="#footer" class="topnav_button" id="invest" onclick="setImagesZindex()"><span style="color:blue">invest</span></a>
   </div>
 
-  <div class="images">
+  <div class="images" id="images">
     <img class="bg1" src="img/fenix3.jpeg" alt="top view"></img>
     <img class="bg1" src="img/haka2.jpeg" alt="top view"></img>
     <img class="bg1" src="img/fenix2.jpeg" alt="top view"></img>
