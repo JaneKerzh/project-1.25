@@ -21,6 +21,6 @@ window.addEventListener("DOMContentLoaded", function() {
   for (var i = 0; i < menu_buttons.length; i++) {
       menu_buttons[i].addEventListener('click', setImagesZindex, false);
   }
-  document.getElementById('us').addEventListener('click', setImagesZindex, false);
+  document.getElementById('button_footer').addEventListener('click', setImagesZindex, false);
 
 }, false);
