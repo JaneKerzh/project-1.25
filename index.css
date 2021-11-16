@@ -2,6 +2,7 @@
   font-family: "HelveticaNeue-Light", sans-serif;
   font-weight: 300;
   scroll-behavior: smooth;
+  margin-bottom: 0px;
 }
 
 ::-webkit-scrollbar {
@@ -33,7 +34,7 @@ h4 {
 }
 
 h5 {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 h6 {
@@ -81,6 +82,11 @@ a:active {
   text-align: center;
   padding-right: 30px;
   font-size: 30px;
+}
+
+#insta {
+  float: right;
+  padding: 0px;
 }
 
 
@@ -163,21 +169,23 @@ a:active {
 }
 
 /* override for moile devices
+.topnav a {
+  display: list-item;
+}
+
+
+
+#fixed_wrapper {
+    top: 220px;
+}
+#fixed_wrapper div{
+  height: calc(100vh - 220px);
+}
+
+*/
 
 @media only screen and (max-width: 700px) {
-  .topnav a {
-    display: list-item;
-  }
-
   .images {
     display: none;
   }
-
-  #fixed_wrapper {
-      top: 220px;
-  }
-  #fixed_wrapper div{
-    height: calc(100vh - 220px);
-  }
 }
-*/
