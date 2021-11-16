@@ -162,7 +162,7 @@ a:active {
   width: 23px;
 }
 
-/* override for moile devices */
+/* override for moile devices
 
 @media only screen and (max-width: 700px) {
   .topnav a {
@@ -180,3 +180,4 @@ a:active {
     height: calc(100vh - 220px);
   }
 }
+*/
