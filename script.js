@@ -3,9 +3,6 @@ function setImagesZindex() {
     var style = window.getComputedStyle(element);
     var current_z = style.getPropertyValue('z-index');
 
-    console.log('in')
-
-    console.log(event.target.outerText)
     if (event.target.outerText == "learn more") {
       document.getElementById("images").style.zIndex = "-1";
     } else {
