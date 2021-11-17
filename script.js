@@ -6,7 +6,7 @@ function setImagesZindex() {
     console.log('in')
 
     console.log(event.target.outerText)
-    if (event.target.outerText == "invest") {
+    if (event.target.outerText == "learn more") {
       document.getElementById("images").style.zIndex = "-1";
     } else {
       if (document.getElementById("images").style.zIndex == "-1") {
