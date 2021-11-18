@@ -176,6 +176,10 @@ a:active {
     display: none;
   }
 
+  .topnav {
+    background-color: white;
+  }
+
   .topnav a {
     display: list-item;
     text-align: left;
@@ -206,7 +210,7 @@ a:active {
     height: 90vh;
     display: block;
     min-height: 1px;
-    overflow: auto;
+    overflow: scroll;
     overflow-wrap: anywhere;
     hyphens: auto;
     position: relative;
