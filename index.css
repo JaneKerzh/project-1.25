@@ -175,7 +175,7 @@ a:active {
   .images {
     display: none;
   }
-/*
+
   .topnav {
     display: none;
   }
@@ -191,13 +191,10 @@ a:active {
 
 
   #name {
-    margin-top: 5vh;
+    margin-top: 0vh;
     margin-bottom: 0px;
   }
 
-  #main_page {
-    min-height: 90vh;
-  }
 
   #fixed_wrapper {
       top: 2vh;
@@ -213,14 +210,29 @@ a:active {
   #fixed_wrapper div{
     color: black;
     height: auto;
-    min-height: 100vh;
     overflow: hidden;
+    position: relative;
   }
 
   #reintro {
-    position: absolute;
+    position: relative;
     margin-bottom: 5vh;
-    bottom: 20vh;;
   }
-*/
+
+  .footer {
+    margin-top: 0vh;
+    padding-left: 0px;
+    font-size: 30px;
+  }
+
+  #address {
+    position: relative;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+  }
+
+  #button_footer {
+    display: none;
+  }
+
 }
