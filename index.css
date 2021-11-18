@@ -177,6 +177,8 @@ a:active {
   }
 
   .topnav {
+    margin-top: 0px;
+    padding-top: 5vmin;
     background-color: white;
   }
 
@@ -193,6 +195,12 @@ a:active {
 
   h5 {
     font-size: 4vmax;
+  }
+
+
+  #name {
+    margin-top: 50vh;
+    margin-bottom: 0px;
   }
 
   #fixed_wrapper {
