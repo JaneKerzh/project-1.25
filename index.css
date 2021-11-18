@@ -125,7 +125,7 @@ a:active {
   overflow: auto;
   overflow-wrap: anywhere;
   hyphens: auto;
-
+  position: relative;
 }
 
 #fixed_wrapper p {
