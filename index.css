@@ -178,13 +178,10 @@ a:active {
 
   .topnav {
     display: none;
-    margin-top: 0px;
-    padding-top: 5vmin;
-    background-color: white;
   }
 
   .topnav a {
-    display: list-item;
+    display: none;
     text-align: left;
     padding-bottom: 1vh;
     font-size: 4vh;
@@ -200,14 +197,19 @@ a:active {
 
 
   #name {
-    margin-top: 50vh;
+    margin-top: 5vh;
     margin-bottom: 0px;
   }
 
+  #main_page {
+    min-height: 100vh;
+  }
+
   #fixed_wrapper {
-      top: 20vh;
-      height: 90vh;
+      top: 2vh;
+      height: auto;
       position: absolute;
+      display: inline;
       max-width: 94vw;
       width: 94vw;
       overflow: scroll;
@@ -216,13 +218,9 @@ a:active {
 
   #fixed_wrapper div{
     color: black;
-    height: 90vh;
-    display: block;
-    min-height: 1px;
-    overflow: auto;
-    overflow-wrap: anywhere;
-    hyphens: auto;
-    position: relative;
+    height: auto;
+    min-height: 100vh;
+    overflow: hidden;
   }
 
 }
