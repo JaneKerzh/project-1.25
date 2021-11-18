@@ -180,6 +180,7 @@ a:active {
     display: list-item;
     text-align: left;
     padding-bottom: 1vh;
+    font-size: 3vh;
   }
 
   #insta {
@@ -192,7 +193,11 @@ a:active {
   }
 
   #fixed_wrapper {
-    top: 12vh;
+    top: 18vh;
+  }
+
+  #fixed_wrapper div {
+    height: 80vh;
   }
 
 }
