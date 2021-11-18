@@ -192,4 +192,8 @@ a:active {
   h5 {
     font-size: 4vmax;
   }
+
+  #fixed_wrapper div{
+    height: calc(100vh - 100px);
+  }
 }
