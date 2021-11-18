@@ -125,7 +125,7 @@ a:active {
   overflow: auto;
   overflow-wrap: anywhere;
   hyphens: auto;
-  position: relative;
+
 }
 
 #fixed_wrapper p {
@@ -196,7 +196,6 @@ a:active {
     top: 20vh;
     margin-top: 3vh;
     height: 70vh;
-    transform: translate3d(0,0,0);
   }
 
   #fixed_wrapper div {
