@@ -194,8 +194,10 @@ a:active {
   #fixed_wrapper {
       top: 10vh;
       height: 90vh;
+      position: relative;
       max-width: 94vw;
       width: 94vw;
+      overflow: auto;
       margin-left: 3vw;
   }
 
@@ -203,6 +205,7 @@ a:active {
     color: black;
     height: 90vh;
     display: block;
+    min-height: 1px;
     overflow: auto;
     overflow-wrap: anywhere;
     hyphens: auto;
