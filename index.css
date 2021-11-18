@@ -184,8 +184,7 @@ a:active {
   }
 
   #insta {
-    float: left;
-    padding: 0px;
+    display: none;
   }
 
   h5 {
