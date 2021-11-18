@@ -193,7 +193,7 @@ a:active {
   }
 
   #fixed_wrapper {
-    top: 20vh;
+    margin-top: 20vh;
     position: relative;
     margin-top: 3vh;
     height: 70vh;
