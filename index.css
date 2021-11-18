@@ -217,4 +217,10 @@ a:active {
     overflow: hidden;
   }
 
+  #reintro {
+    position: absolute;
+    margin-bottom: 5vh;
+    bottom: 5vh;;
+  }
+
 }
