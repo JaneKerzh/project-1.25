@@ -195,11 +195,11 @@ a:active {
   #fixed_wrapper {
     top: 20vh;
     margin-top: 3vh;
-    height: 77vh;
+    height: 50vh;
   }
 
   #fixed_wrapper div {
-    height: 77vh;
+    height: 50vh;
   }
 
 }
