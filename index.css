@@ -110,9 +110,10 @@ a:active {
 #fixed_wrapper {
     top: 10vh;
     height: 90vh;
+    position: fixed;
     max-width: 94vw;
     width: 94vw;
-    overflow: hidden;
+    overflow: auto;
     margin-left: 3vw;
 }
 
