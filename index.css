@@ -180,12 +180,6 @@ a:active {
     display: none;
   }
 
-  .topnav a {
-    display: none;
-    text-align: left;
-    padding-bottom: 1vh;
-    font-size: 4vh;
-  }
 
   #insta {
     display: none;
@@ -202,7 +196,7 @@ a:active {
   }
 
   #main_page {
-    min-height: 100vh;
+    min-height: 90vh;
   }
 
   #fixed_wrapper {
