@@ -67,7 +67,7 @@ a:active {
 
 .topnav {
   margin-left: 3vw;
-  margin-top: 5vh;
+  margin-top: 5vmin;
   top: 0;
   overflow: hidden;
   position: fixed;
@@ -189,8 +189,23 @@ a:active {
     display: none;
   }
 
+  .topnav a {
+    display: list-item;
+    text-align: left;
+    padding-bottom: 1vh;
+  }
+
+  #insta {
+    float: left;
+    padding: 0px;
+  }
+
   h5 {
     font-size: 4vmax;
+  }
+
+  #fixed_wrapper {
+    top: 12vh;
   }
 
   #fixed_wrapper div{
