@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-  font-size: 120px;
+  font-size: 15vmin;
 }
 
 h2 {
@@ -26,7 +26,7 @@ h2 {
 }
 
 h3 {
-  font-size: 50px;
+  font-size: 6vmin;
 }
 
 h4 {
@@ -34,7 +34,7 @@ h4 {
 }
 
 h5 {
-  font-size: 40px;
+  font-size: 4vmin;
 }
 
 h6 {
@@ -80,8 +80,8 @@ a:active {
   color: black;
   display: inline-block;
   text-align: center;
-  padding-right: 30px;
-  font-size: 30px;
+  padding-right: 2vw;
+  font-size: 4vmin;
 }
 
 #insta {
@@ -132,7 +132,7 @@ a:active {
 }
 
 #name {
-  margin-top: calc(45vh - 105px); /* 105px = topnav + half the name height */
+  margin-top: 30vh; /* 105px = topnav + half the name height */
   margin-bottom: 0px;
 }
 
@@ -164,8 +164,8 @@ a:active {
 }
 
 .links {
-  height: 23px;
-  width: 23px;
+  height: 4vmin;
+  width: 4vmin;
 }
 
 /* override for moile devices
@@ -187,5 +187,9 @@ a:active {
 @media only screen and (max-width: 700px) {
   .images {
     display: none;
+  }
+
+  h5 {
+    font-size: 4vmax;
   }
 }
