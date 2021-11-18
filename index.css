@@ -168,21 +168,8 @@ a:active {
   width: 4vmin;
 }
 
-/* override for moile devices
-.topnav a {
-  display: list-item;
-}
+/* override for moile devices */
 
-
-
-#fixed_wrapper {
-    top: 220px;
-}
-#fixed_wrapper div{
-  height: calc(100vh - 220px);
-}
-
-*/
 
 @media only screen and (max-width: 700px) {
   .images {
@@ -208,7 +195,4 @@ a:active {
     top: 12vh;
   }
 
-  #fixed_wrapper div{
-    height: calc(100vh - 100px);
-  }
 }
