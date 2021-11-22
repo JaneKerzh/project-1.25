@@ -87,6 +87,9 @@ a:active {
 #insta {
   float: right;
   padding: 0px;
+  display: block;
+  height: 4vmin;
+  width: 4vmin;
 }
 
 
@@ -165,8 +168,7 @@ a:active {
 }
 
 .links {
-  height: 4vmin;
-  width: 4vmin;
+
 }
 
 /* override for moile devices */
