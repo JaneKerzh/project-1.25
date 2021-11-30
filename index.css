@@ -169,7 +169,7 @@ a:active {
 
 }
 
-/* override for moile devices */
+/* override for moile devices
 
 
 @media only screen and (max-width: 700px) {
@@ -232,3 +232,5 @@ a:active {
   }
 
 }
+
+*/
