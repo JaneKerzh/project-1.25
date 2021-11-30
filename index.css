@@ -39,6 +39,7 @@ h5 {
 
 h6 {
   font-size: 3vmin;
+  margin-top: 3vmin;
 }
 
 p {
@@ -99,7 +100,6 @@ a:active {
   overflow: hidden;
   position: relative;
   z-index: 1;
-  display:none;
 }
 
 .bg1 {
