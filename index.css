@@ -170,6 +170,18 @@ a:active {
 
 }
 
+@media only screen and (max-width: 700px) {
+
+  .topnav a {
+    display: list-item;
+    text-align: left;
+  }
+
+  #insta {
+    float: left;
+  }
+}
+
 /* override for moile devices
 
 
