@@ -186,8 +186,8 @@ a:active {
       top: 40vmin;
   }
 
-  .topnav {
-    margin-bottom: 1vmax;
+  h6 {
+    font-size: 5vmin;
   }
 }
 
