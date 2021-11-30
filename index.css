@@ -129,12 +129,8 @@ a:active {
   position: relative;
 }
 
-#fixed_wrapper p {
-  margin-bottom: 30px;
-}
-
 #name {
-  margin-top: 30vh; /* 105px = topnav + half the name height */
+  margin-top: 17vh; /* 105px = topnav + half the name height */
   margin-bottom: 0px;
 }
 
@@ -183,11 +179,16 @@ a:active {
   }
 
   #fixed_wrapper {
-      top: 40vmin;
+      top: 20vh;
+      height: 80vh;
+  }
+
+  #fixed_wrapper div{
+    height: 80vh;
   }
 
   h6 {
-    font-size: 5vmin;
+    font-size: 4.5vmin;
   }
 }
 
