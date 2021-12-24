@@ -85,7 +85,7 @@ a:active {
   font-size: 4vmin;
 }
 
-#insta {
+#more {
   float: right;
   padding: 0px;
   display: block;
@@ -185,6 +185,10 @@ a:active {
 
   #fixed_wrapper div{
     height: 80vh;
+  }
+
+  #more {
+    float: left;
   }
 
   h6 {
