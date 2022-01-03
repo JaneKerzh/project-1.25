@@ -107,6 +107,11 @@ a:active {
   margin-top: 110vh;
 }
 
+.personnel {
+
+  color: green;
+}
+
 
 #fixed_wrapper {
     top: 10vh;
